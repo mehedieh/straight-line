@@ -67,7 +67,7 @@ clear()
 
 newLine = Line(gradient, yIntercept)
 
-print(f"X Range: {end=}"")
+print("X Range: ", end="")
 currentXPoint = input()
 clear()
 print(f"X Range: {currentXPoint} to  {end=}"")
