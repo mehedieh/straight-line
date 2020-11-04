@@ -67,13 +67,13 @@ clear()
 
 newLine = Line(gradient, yIntercept)
 
-print("X Range: ", end="")
+print(f"X Range: {end=}"")
 currentXPoint = input()
 clear()
-print("X Range: " + str(currentXPoint) + " to ", end="")
+print(f"X Range: {currentXPoint} to  {end=}"")
 xLimit = input()
 clear()
-print("X Range: " + str(currentXPoint) + " to " + str(xLimit))
+print(f"X Range: {currentXPoint} to {xLimit}")    
 time.sleep(1)
 clear()
 
